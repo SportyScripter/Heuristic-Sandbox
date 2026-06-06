@@ -3,9 +3,6 @@ import numpy as np
 
 
 def animate_comparison_3d(algo_ae, algo_de, max_iterations):
-    if algo_ae.dim != 3 or algo_de.dim != 3:
-        print("Błąd: Wizualizacja 3D obsługuje tylko dokładnie 3 wymiary (n=3)!")
-        return None, None
     plt.ion()
     fig = plt.figure(figsize=(14, 7))
     ax1 = fig.add_subplot(121, projection="3d")

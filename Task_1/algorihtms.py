@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class EvolutinaryAlgorithm:
+class EvolutionaryAlgorithm:
     def __init__(
         self, func, bounds, population_size=30, mutation_rate=0.1, mutation_scale=0.5
     ):
